@@ -75,8 +75,8 @@ const MenuLinks = ({ isOpen }) => {
         <Input placeholder="Search...." bg='white' border='1px solid black' color='black'>
           
         </Input>
-        <MenuItem to="/">Login</MenuItem>
-        <MenuItem to="/" isLast>
+        <MenuItem to="/login">Login</MenuItem>
+        <MenuItem to="/signup" isLast>
           <Button
             size="sm"
             rounded="md"
