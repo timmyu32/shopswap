@@ -11,7 +11,7 @@ const ProfileHeader = () => {
     <Flex id='container' direction={'column'} mt={-8} p={2}> 
         <Flex>
             <Flex flex={1} p={2}>
-                <Image borderRadius={'505'} src={'https://media-photos.depop.com/b0/1308492/930895694_509b6ad7e1614709a99460748e5a7d96/U1.jpg'}/>
+                <Image borderRadius={'50%'} src={'https://media-photos.depop.com/b0/1308492/930895694_509b6ad7e1614709a99460748e5a7d96/U1.jpg'}/>
             </Flex>
             <Flex flex={2} direction='column' p={2}>
                 <Text fontWeight={700}>User1234</Text>

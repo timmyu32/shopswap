@@ -49,8 +49,6 @@ const ListingDetails = () => {
                 <Text>Womens/Dress/Maxi</Text>
             </Flex>
         </Flex>
-
-
     </Flex>
   )
 }

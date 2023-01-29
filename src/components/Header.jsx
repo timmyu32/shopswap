@@ -72,9 +72,9 @@ const MenuLinks = ({ isOpen }) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <Input placeholder="Search...." bg='white' border='1px solid black' color='black'>
-          
-        </Input>
+        
+        <MenuItem to="/search/user">Users</MenuItem>
+        <MenuItem to="/search/category">Category</MenuItem>
         <MenuItem to="/login">Login</MenuItem>
         <MenuItem to="/signup" isLast>
           <Button

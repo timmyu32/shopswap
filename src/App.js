@@ -2,8 +2,10 @@ import Discover from "./pages/Discover";
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Profile from './pages/Profile';
+import SearchPage from './pages/SearchPage';
+import CategorySearchPage from "./pages/CategorySearchPage";
 import Listing from "./pages/Listing";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path='/signup' exact element={<Signup/>}/>
           <Route path='/profile/:user' exact element={<Profile/>}/>
           <Route path='/item/:itemID' exact element={<Listing/>}/>
+          <Route path='/search/user' exact element={<SearchPage/>}/>
+          <Route path='/search/category' exact element={<CategorySearchPage/>}/>
         </Routes>
       </div>
     </Router>
