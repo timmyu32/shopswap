@@ -281,7 +281,7 @@ children: [
             </Box>
             {error && <Text color="red">{error}</Text>}
             {selectedPhotos.length > 0 && (
-                <Stack spacing={4}>
+                <Stack spacing={4} mb={6}>
                 {selectedPhotos.map((photo, index) => (
                     <Box key={index} height="100px" width="100px">
                     <img
@@ -296,7 +296,7 @@ children: [
             )}
         </Stack>
         <Flex direction={'column'} p={2}>
-            <Flex flex={1} mb={2}>
+            <Flex flex={1} mb={2} mt={6}>
                 <Textarea placeholder="Enter additional comments about what you're selling"/>
             </Flex>
             <Flex flex={1} direction={'column'}>
