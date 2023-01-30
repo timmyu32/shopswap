@@ -73,6 +73,7 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         
+        <MenuItem to="/sell">Sell</MenuItem>
         <MenuItem to="/search/user">Users</MenuItem>
         <MenuItem to="/search/category">Category</MenuItem>
         <MenuItem to="/login">Login</MenuItem>

@@ -5,6 +5,7 @@ import Profile from './pages/Profile';
 import SearchPage from './pages/SearchPage';
 import CategorySearchPage from "./pages/CategorySearchPage";
 import Listing from "./pages/Listing";
+import SellItem from "./pages/SellItem"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/signup' exact element={<Signup/>}/>
           <Route path='/profile/:user' exact element={<Profile/>}/>
           <Route path='/item/:itemID' exact element={<Listing/>}/>
+          <Route path='/sell' exact element={<SellItem/>}/>
           <Route path='/search/user' exact element={<SearchPage/>}/>
           <Route path='/search/category' exact element={<CategorySearchPage/>}/>
         </Routes>
