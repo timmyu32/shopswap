@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const ListingDetails = () => {
   return (
-    <Flex direction={'column'} p={2}>
+    <Flex direction={'column'} p={6} borderTop={'8px solid #7FA9F0'}>
         <Flex flex={1} mb={2}>
             <Text fontWeight={600}>This is a space for additional any comments. This is a space for additional any comments. This is a space for additional any comments.</Text>
         </Flex>

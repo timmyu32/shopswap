@@ -1,12 +1,15 @@
 import { Box, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <Box>
-        <Text fontSize="3xl" fontWeight="bold">
-            ShopSwap
-         </Text>
-    </Box>
+    <Link to='/'>
+      <Box>
+          <Text fontSize="3xl" fontWeight="bold">
+              ShopSwap
+          </Text>
+      </Box>
+    </Link>
   )
 }
 

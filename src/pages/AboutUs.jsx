@@ -37,8 +37,6 @@ const AboutUs = () => {
                 <Text>Our website is designed to fix this exact problem. We want to connect students within the same campus to buy and sell clothes to each other without the hassle of shipping or thrifting in store.  This is an affordable and sustainable option for someone wanting to find the perfect dress or new party top just steps away from their dorm.</Text>
             </Flex>
 
-            
-
         </Flex>
         <Footer/>
     </Flex>

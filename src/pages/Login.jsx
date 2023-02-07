@@ -53,7 +53,7 @@ const Login = () => {
     <Box>
         <Box w='80%' margin='0 auto' mt='15vh'>
           <Flex direction='column' color='#293051'>
-              <Text mb={4} color="#85A5EA" textAlign='center' fontSize="2rem" fontWeight="900">Shop Swapp</Text>
+              <Text mb={4} color="#7FA9F0" textAlign='center' fontSize="2rem" fontWeight="900">Shop Swapp</Text>
               <Text textAlign='center' fontWeight='600' fontSize='1.5rem'>Sign in</Text>
               {err201 && 
                 <Box p={4} textAlign='center'>
@@ -91,7 +91,7 @@ const Login = () => {
                     <Button 
                     isLoading={isDataLoading}
                     _hover={{ bg: '#4d5085' }} 
-                    bg="#85A5EA" 
+                    bg="#7FA9F0"
                     w='100%' 
                     color='white' 
                     fontWeight='500' 

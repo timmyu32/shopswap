@@ -103,13 +103,15 @@ const SearchPage = () => {
     <div>
         <Header/>
         <Flex minH={'100vh'} direction={'column'}>
-          <Text m='0 auto'>Search for ShopSwapp users</Text>
+          <Text m='0 auto' fontWeight={900} fontSize='1.5rem'>Search for ShopSwapp users</Text>
           <InputGroup p={4}>
             <Input w='80%' m={2} m='0 auto' placeholder="Search...." bg='white' border='1px solid black' color='black'/>
             <InputRightAddon
+              bg='#7FA9F0'
+              color='white'
               _hover={{ cursor: 'pointer'}}  
             >
-              <Text>Search</Text>
+              <Text color='white'>Search</Text>
             </InputRightAddon>            
           </InputGroup>
           <hr/>

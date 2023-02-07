@@ -73,6 +73,7 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         
+        <MenuItem to="/">Discover</MenuItem>
         <MenuItem to="/about-us">About Us</MenuItem>
         <MenuItem to="/sell">Sell</MenuItem>
         <MenuItem to="/search/user">User Search</MenuItem>
@@ -106,7 +107,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={2}
-      bg={["pink", "pink", "pink", "pink"]}
+      bg={["#F27D93", "#F27D93", "#F27D93", "#F27D93"]}
       color={["white", "white", "white", "white"]}
       {...props}
     >

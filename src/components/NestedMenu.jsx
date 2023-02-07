@@ -43,8 +43,8 @@ const NestedMenu = ({ menu }) => {
                   item.children.map((child, childIndex) => (
                     <Stack key={childIndex} spacing={2} flex={1}>   
                       {child.children ? (
-                        <Flex flex={1}  >
-                          <Button m={'0 auto'} onClick={() => setSelected(child)}>
+                        <Flex flex={1} m={2} >
+                          <Button w='60%' bg='#7FA9F0' color='white' m={'0 auto'} onClick={() => setSelected(child)}>
                             {child.title}
                           </Button>
                         </Flex>

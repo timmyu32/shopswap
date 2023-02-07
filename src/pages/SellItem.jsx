@@ -360,7 +360,7 @@ children: [
                 </Flex>
             </Flex>
             <Flex flex={1} direction={'column'}>
-                <Button bg='#85A5EA' color='white'>List Your Item</Button>
+                <Button bg='#7FA9F0' color='white'>List Your Item</Button>
             </Flex>
             
         </Flex>
