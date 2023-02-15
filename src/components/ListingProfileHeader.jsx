@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
-const ListingProfileHeader = () => {
+const ListingProfileHeader = (props) => {
   return (
     <Flex id='container' direction={'column'} mt={-8} p={2}> 
         <Flex>
@@ -18,6 +18,11 @@ const ListingProfileHeader = () => {
             <Flex flex={9} direction='column' p={2} textAlign={'left'} mt={1}>
                 <Link to="/profile/user1234">
                     <Text fontWeight={700}>User1234</Text>
+                    {props.mobile ?
+                    <></>
+                    :
+                    <Text fontWeight={500} color='gray.500'>@user_1234</Text>
+                    }
                  </Link>
             </Flex>
         </Flex>

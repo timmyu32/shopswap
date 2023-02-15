@@ -9,8 +9,9 @@ const Profile = (props) => {
   return (
     <div>
         <Header/>
-        <ProfileHeader/>
-        <IconGrid/>
+        <ProfileHeader mobile={props.mobile}/>
+        <hr/>
+        <IconGrid mobile={props.mobile}/>
 
         <Footer/>
         

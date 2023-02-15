@@ -13,9 +13,10 @@ import { useRef, useState } from 'react';
 import { FaRegEye } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 // import { userAtom } from '../recoil/userAtoms';
+import Header from "../components/Header";
 
 
-const Signup = () => {
+const Signup = (props) => {
   const emailRef = useRef();
   const passwordRef = useRef();
   
@@ -29,7 +30,7 @@ const Signup = () => {
   const [errNetwork, seterrNetwork] = useState(false);
 
 
-  const handleClick = (props) => {
+  const handleClick = () => {
     // dispatch(loginStart())
     //   setDataLoading(true);
          
@@ -51,8 +52,9 @@ const Signup = () => {
 
   return (
     <Box>
-        <Box w='80%' margin='0 auto' mt='15vh'>
-          <Flex direction='column' color='#293051'>
+        <Header/>
+        <Box w='80%' margin='0 auto' mt='12vh'>
+          <Flex direction='column' color='#293051' w={props.mobile?'100%':'60%'} m='0 auto'>
               <Text mb={4} color="#7FA9F0" textAlign='center' fontSize="2rem" fontWeight="900">Shop Swapp</Text>
               <Text textAlign='center' fontWeight='600' fontSize='1.5rem'>Sign up</Text>
               {err201 && 
@@ -111,12 +113,16 @@ const Signup = () => {
                     fontSize='1.1rem'
                         onClick={() =>handleClick()}
                     >
-                    REGISTER
+                    SIGN UP
                     </Button>
                 </Link>
                 
                 <Link to='/login' >
-                  <Text textAlign='center' margin='0 auto' w='100%'>Already have an account? Sign in.</Text>
+                  <Text textAlign='center' margin='0 auto' w='100%'>Already have an account?&nbsp;
+                    <Text as='span' textDecoration={'underline'}  color="#7FA9F0">
+                        Sign in.
+                    </Text>
+                  </Text>
                 </Link>
               </Box>
           </Flex>

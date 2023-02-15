@@ -106,7 +106,11 @@ const Login = (props) => {
                 </Link>
                 
                 <Link to='/signup' >
-                  <Text textAlign='center' margin='0 auto' w='100%'>Don't have an account yet? Sign up</Text>
+                <Text textAlign='center' margin='0 auto' w='100%'>Don't have an account yet?&nbsp;
+                    <Text as='span' textDecoration={'underline'}  color="#7FA9F0">
+                        Sign up.
+                    </Text>
+                  </Text>
                 </Link>
               </Box>
           </Flex>

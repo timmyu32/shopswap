@@ -43,10 +43,10 @@ const pictures = [
     },
 ]
 
-const IconGrid = () => {
+const IconGrid = (props) => {
     return (
-        <Box p={4}>
-            <Grid templateColumns="repeat(3, 1fr)" gap={2}>
+        <Box p={props.mobile?4:10}>
+            <Grid templateColumns={`repeat(${props.mobile?"3":"6"}, 1fr)`} gap={2}>
                 {pictures.map((picture, index) => (
                 <Box key={index} mb={2}>
                     <ProfileItemIcon src={picture.url}/>
