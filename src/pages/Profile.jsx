@@ -5,7 +5,7 @@ import ProfileHeader from "../components/ProfileHeader";
 import ProfileItemIcon from "../components/ProfileItemIcon";
 import IconGrid from '../components/IconGrid';
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div>
         <Header/>

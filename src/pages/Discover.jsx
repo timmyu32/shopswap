@@ -3,11 +3,11 @@ import DiscoverItems from "../components/DiscoverItems";
 import Footer from "../components/Footer";
 
 
-const Discover = () => {
+const Discover = (props) => {
   return (
     <div>
         <Header/>
-        <DiscoverItems/>
+        <DiscoverItems mobile={props.mobile}/>
         <Footer/>
     </div>
   )

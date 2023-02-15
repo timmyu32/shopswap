@@ -29,7 +29,7 @@ const Signup = () => {
   const [errNetwork, seterrNetwork] = useState(false);
 
 
-  const handleClick = () => {
+  const handleClick = (props) => {
     // dispatch(loginStart())
     //   setDataLoading(true);
          

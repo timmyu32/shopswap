@@ -9,20 +9,24 @@ import SellItem from "./pages/SellItem"
 import AboutUs from "./pages/AboutUs";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+const mql = window.matchMedia('(max-width: 480px)');
+
+let mobileView = mql.matches;
+
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route index element={<Discover/>}/>
-          <Route path='/login' exact element={<Login/>}/>
-          <Route path='/signup' exact element={<Signup/>}/>
-          <Route path='/profile/:user' exact element={<Profile/>}/>
-          <Route path='/item/:itemID' exact element={<Listing/>}/>
-          <Route path='/sell' exact element={<SellItem/>}/>
-          <Route path='/about-us' exact element={<AboutUs/>}/>
-          <Route path='/search/user' exact element={<SearchPage/>}/>
-          <Route path='/search/category' exact element={<CategorySearchPage/>}/>
+          <Route index element={<Discover mobile={mobileView}/>}/>
+          <Route path='/login' exact element={<Login mobile={mobileView}/>}/>
+          <Route path='/signup' exact element={<Signup mobile={mobileView}/>}/>
+          <Route path='/profile/:user' exact element={<Profile mobile={mobileView}/>}/>
+          <Route path='/item/:itemID' exact element={<Listing mobile={mobileView}/>}/>
+          <Route path='/sell' exact element={<SellItem mobile={mobileView}/>}/>
+          <Route path='/about-us' exact element={<AboutUs mobile={mobileView}/>}/>
+          <Route path='/search/user' exact element={<SearchPage mobile={mobileView}/>}/>
+          <Route path='/search/category' exact element={<CategorySearchPage mobile={mobileView}/>}/>
         </Routes>
       </div>
     </Router>

@@ -72,7 +72,7 @@ const DropdownMenu = ({ categories, onSelect, bg }) => {
 
 
 
-const SellItem = () => {
+const SellItem = (props) => {
     const [selectedPhotos, setSelectedPhotos] = useState([]);
     const [error, setError] = useState("");
     const { isOpen, onOpen, onClose } = useDisclosure();

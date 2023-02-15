@@ -6,7 +6,7 @@ const Logo = () => {
     <Link to='/'>
       <Box>
           <Text fontSize="3xl" fontWeight="bold">
-              ShopSwap
+              ShopSwapp
           </Text>
       </Box>
     </Link>

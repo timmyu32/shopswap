@@ -98,7 +98,7 @@ const users = [
 ]
 
 
-const SearchPage = () => {
+const SearchPage = (props) => {
   return (
     <div>
         <Header/>

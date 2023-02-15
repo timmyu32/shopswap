@@ -156,7 +156,7 @@ children: [
 
   
   
-  const CategorySearchPage = () => {
+  const CategorySearchPage = (props) => {
     return (
       <div>
           <Header/>

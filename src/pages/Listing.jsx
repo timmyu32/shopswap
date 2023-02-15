@@ -4,7 +4,7 @@ import ListingProfileHeader from '../components/ListingProfileHeader';
 import ListingImages from '../components/ListingImages';
 import ListingDetails from '../components/ListingDetails';
 
-const Listing = () => {
+const Listing = (props) => {
   return (
     <div>
         <Header/>
