@@ -12,23 +12,37 @@ const DiscoverItems = () => {
         <Flex direction={'row'} w={'100%'}  flex={1} wrap='wrap' >
             <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
                 <Listing/>
-            </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
                 <Listing/>
             </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
                 <Listing/>
             </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
                 <Listing/>
             </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
                 <Listing/>
             </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
                 <Listing/>
             </Flex>
-            <Flex flex={1} maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
+                <Listing/>
+            </Flex>
+            <Flex flex={1}  maxWidth={'80vw'} minWidth={'80vw'} margin='0 auto'>
+                <Listing/>
+                <Listing/>
                 <Listing/>
             </Flex>
 

@@ -16,7 +16,7 @@ const AboutUs = () => {
             <Text textAlign={'center'} fontSize={'2rem'} fontWeight={'800'}>About Us</Text>
             <Flex>
                 <Flex direction='column' flex={1} alignItems={'center'} p={6} minW={'350px'}> 
-                    <Image maxWidth={'40%'}src="./assets/images/IMG_5304.JPG"/>
+                    <Image maxWidth={'40%'}src="./assets/images/IMG_5304.PNG"/>
                     <Text m='0 auto' fontWeight={'600'}>Mikayla Crowley</Text>
                     <Text>Hello I am Mikayla and I am a Biomedical Engineering senior at Boston University. I am also a part of the field hockey team and a typical outfit of the day for me is leggings and a sweatshirt. I hate shopping but I always want cute clothes for going out on weekends or fancy dinners. I have also been extremely conservative with the way I spend my money so I am always looking for deals. I am so excited to share Shop Swapp with all of you so you can find some deals too!</Text>
                 </Flex>
