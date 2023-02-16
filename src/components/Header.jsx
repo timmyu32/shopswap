@@ -73,19 +73,20 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         
-        <MenuItem to="/">Discover</MenuItem>
-        <MenuItem to="/about-us">About Us</MenuItem>
+        <MenuItem to="/">Shop</MenuItem>
         <MenuItem to="/sell">Sell</MenuItem>
-        <MenuItem to="/search/user">User Search</MenuItem>
-        <MenuItem to="/search/category">Category</MenuItem>
+        <MenuItem to="/about-us">About Us</MenuItem>
+        <MenuItem to="/faq">FAQ</MenuItem>
+        {/* <MenuItem to="/search/user">User Search</MenuItem> */}
+        {/* <MenuItem to="/search/category">Category</MenuItem> */}
         <MenuItem to="/login" isLast>
           <Button
             size="sm"
             rounded="md"
-            color={["primary.500", "primary.500", "white", "white"]}
-            bg={["white", "white", "primary.500", "primary.500"]}
+            color={"white"}
+            bg={"#7FA9F0"}
             _hover={{
-              bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
+              bg: '#4d5085'
             }}
           >
             Login or Sign Up
